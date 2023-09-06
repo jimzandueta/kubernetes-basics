@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kubernetes-basics-deployment
+  labels:
+    app: kubernetes-basics
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: kubernetes-basics
+  template:
+    metadata:
+      labels:
+        app: kubernetes-basics
+    spec:
+      containers:
+      - name: kubernetes-basics
+        image: jimzandueta/kubernetes-basics:latest
+        resources:
+          limits:
+            cpu: "1"
+            memory: "512Mi"
