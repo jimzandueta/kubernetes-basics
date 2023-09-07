@@ -10,7 +10,7 @@ This project covers the fundamental concepts of Kubernetes. By the end of this g
 ## Quick Start
 - Clone this repository:
 ```bash 
-$ git clone https://github.com/YOUR_USERNAME/kubernetes-basics.git
+$ git clone https://github.com/jimzandueta/kubernetes-basics
 $ cd Kubernetes-Basics
 ```
 
