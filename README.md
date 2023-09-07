@@ -11,7 +11,7 @@ This project covers the fundamental concepts of Kubernetes. By the end of this g
 - Clone this repository:
 ```bash 
 $ git clone https://github.com/jimzandueta/kubernetes-basics
-$ cd Kubernetes-Basics
+$ cd kubernetes-basics
 ```
 
 - Build and Push the Docker Image:
